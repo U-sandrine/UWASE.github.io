@@ -72,17 +72,65 @@ background-size: cover;
 text-decoration: none;
 color: aqua;
 }
+.tabs{
+width: 100%;
+height: 100px;
+color: green;
+
+}
+.tabs a{
+text-decoration: none;
+color:white;
+}
+
+.tabs table{
+width: 100%;
+font-size: 40px;
+color:white;
+font-family: arial;
+background-color: plum;
+border: solid white;
+}
+
+.tabs th{
+cursor: pointer;
+}
+
+.tabs th:hover{
+color: white;
+background-color: dimgrey;
+
+}
 </style>
 <title>Sign up page </title>
 <meta charset="utf-8">
 </head>
 <body>
 
+
+
+</div>
+
+
 <div class="head1">
 
-      <h1><b><font size="11"><i>SANDRINE'S MAKEUP</i></font></b></h1>
+      <h1><b><font size="11"><i>SANDRINE'S MAKEUP</i></font></b></h1><br>
 	  
+	  <div class="tabs">
+
+<table border="1" cellspacing="0">
+<tr>
+<th>Home</th>
+<th>Contact us</th>
+<th><a href="index3.html">About us</a></th>
+<th>Bookings</th>
+<th>Address</th>
+<tr>
+
+</table>
+</div>
 	  </div>
+	  
 <div class="first">
 	  <h2>Fill this form</h2>
 <p><input type="text" placeholder="fullname" name="name1"><br></p>
@@ -96,6 +144,8 @@ color: aqua;
 <div class="table1">
 
 <table >
+
+
 <th><h2>Our working days</h2></th>
   <tr><th>DAYS</td></th><th>FROM</th><th>UP TO</th></tr>
   <tr><td>Monday</td><td>7:00 Hrs</td><td>20:00 Hrs</td></tr>
@@ -108,13 +158,18 @@ color: aqua;
   </table>
   </div>
   <div class="list">
-  <font size="8"><tr><td>COLLEGE:</td></tr><tr><td><form><input list="COLLEGE" name="UR">
-  <datalist id="COLLEGE">
-  <option value="UR-CASS"></option>
-   <option value="UR-CBE"></option>
-   <option value="UR-CAVM"></option>
-   <option value="UR-CST"></option>
-    </datalist></form></td></tr></font>
+  <h1>OUR SERVICE:</h1><br>
+  
+  <form>
+  <input list="services" name="makeup">
+  <datalist id="services">
+  
+  <option value="FACE MAKE-up">
+   <option value="HIGH LIGHTER">
+   <option value="ROUGE OR BRUSH">
+   <option value="FOUNDATION">
+    </datalist>
+	</form>
 <b><font size="5" font-family: arial>Most tweens and teens want to appear older,
  but that’s not the point of makeup. 
  Avoiding heavier makeup like mascara, 
